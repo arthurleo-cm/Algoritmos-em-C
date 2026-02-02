@@ -1,5 +1,5 @@
 /*
-Escreva um programa que dado os coeficientes a,b,c de uma equação de segunfo grau,calucule as raizes reais
+Escreva um programa que dado os coeficientes a,b,c de uma equação de segundo grau,calcule as raizes reais
 */
 #include <math.h>
 #include <stdio.h>
@@ -66,3 +66,4 @@ if (delta == 0)
 *raiz1 = (-b + sqrt(delta)) / (2 * a);
 return 2;
 }
+
