@@ -1,2 +1,2 @@
 # Algoritmos-em-C
-Exercícios e algoritmos desenvolvidos em linguagem C durante a graduação
+Códigos em C que eu aprendi durante o 2°Semestre da Faculdade de Cybersegurança
