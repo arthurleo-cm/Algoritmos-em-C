@@ -51,16 +51,25 @@ void print(Matrix *matrix)
     
 }
 //utilizar a matriz como base para uma nova com o resultado
-Matrix scale(Matrix *matrix,int scale)
+Matrix scale(Matrix *matrix,int scalar)
 {
 
+    Matrix scaled = *create(matrix->nrows, matrix->ncols);
+
+    for (int i = 0; i < scaled->nrows; i++)
+    {
+        for (int j = 0 ;j < scaled->ncols;j++)
+        {
+            scaled->values[i][j] = scalar * matrix-> values[i][j];
+        }
+    }
+    return scaled;
 }
 
 int *extractDiagonal(Matrix *matrix)
 {
-
+    
 }
-
 int trace(Matrix *matrix)
 {
 
