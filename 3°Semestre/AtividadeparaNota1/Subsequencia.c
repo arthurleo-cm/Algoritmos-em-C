@@ -11,7 +11,7 @@ Node *current = head;
 int maior = 1;
 int atual = 1;
 
-while(current->next !=NULL && current->next !=NULL)
+while(current->next !=NULL)
 {
     if(current->value < current->next->value)
     {
@@ -26,11 +26,4 @@ current == current->next;
     {
     maior = atual;
     }
-    }
-
-if(atual > maior)
-{
-maior = atual;
-}
-return maior;
-}
+ }
