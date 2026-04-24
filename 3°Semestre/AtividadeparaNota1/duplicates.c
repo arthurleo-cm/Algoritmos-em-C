@@ -20,7 +20,7 @@ int duplicates(Node *head)
         {
             if (auxiliar->value == current->value)
             {
-                rep++;
+                repe++;
                 break; // evita contar mais de uma vez
             }
             auxiliar = auxiliar->next;
@@ -29,6 +29,6 @@ int duplicates(Node *head)
         current = current->next;
     }
 
-    return rep;
+    return repe;
 
 }
