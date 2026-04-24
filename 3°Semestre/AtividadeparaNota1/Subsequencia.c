@@ -9,7 +9,7 @@ int subsequence(Node *head)
 {
 Node *current = head;
 int maior = 1;
-int atual = 1;
+int atual = 0;
 
 while(current->next !=NULL)
 {
