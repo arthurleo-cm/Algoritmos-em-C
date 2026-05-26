@@ -92,6 +92,21 @@ void imprimir(int *v, int n)
 // UTILIZANDO O ALGORITMO DE ORDENAÇÃO HEAP SORT  O(n log n)
 void ordenar(int *v, int n)
 {
+    //transformando em heap
+    construir(v,n);
+
+    for (int i = n - 1; i > 0; i--)
+    {
+        //movendo o maior parao final
+        trocar(&v[0], &v[i]);
+    
+
+        descer(v,i,0);
+         //reagornização o heap
+    }
+    
+
+
 
 }
 int main()
